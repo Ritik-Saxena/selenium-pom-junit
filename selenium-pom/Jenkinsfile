@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    tools {
+        maven "MAVEN3"
+        jdk "OracleJDK11"
+    }
+
+    stages {
+        stage('Fetch Code') {
+            step {
+                git branch: 'main' url: 'https://github.com/Ritik-Saxena/selenium-pom-junit.git'
+            }
+        }
+        stage('Maven Test') {
+            
+        }
+    }
+    
+}

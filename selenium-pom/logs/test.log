@@ -1,0 +1,215 @@
+2025-03-05 07:41:48 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-05 07:41:52 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-05 07:41:54 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-05 07:41:55 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-05 07:41:55 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-05 07:41:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-05 07:41:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-05 07:42:10 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-05 07:43:10 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-05 07:43:11 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-05 07:43:11 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+2025-03-05 07:43:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:63] - Starting test: testSwitchToWindowByTitle.
+2025-03-05 07:43:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-05 07:43:39 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-05 07:43:39 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-05 07:43:39 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-05 07:43:39 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-05 07:43:39 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:67] - Number of open windows before closing: 3
+2025-03-05 07:43:40 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:70] - Closed window with title 'The Internet'.
+2025-03-05 07:43:40 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:73] - Number of open windows after closing: 2
+2025-03-05 07:43:40 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:76] - Window close validation passed.
+2025-03-05 07:43:45 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:81] - Starting test: testCloseAllWindow.
+2025-03-05 07:43:45 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-05 07:43:46 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-05 07:43:46 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-05 07:43:46 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-05 07:43:46 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-05 07:43:47 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:85] - All windows closed successfully.
+2025-03-05 07:43:51 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-05 07:43:51 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-05 07:43:52 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-05 07:43:52 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-05 07:43:52 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-05 07:43:52 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:56] - Switched to tab 3. Verifying title...
+2025-03-05 07:43:52 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:58] - Title verified successfully.
+2025-03-05 07:43:56 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-05 07:43:57 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-05 07:43:57 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-05 07:43:57 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-05 07:43:57 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:50:49 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-06 05:50:53 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-06 05:50:54 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-06 05:50:55 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-06 05:50:55 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-06 05:50:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-06 05:50:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-06 05:51:02 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-06 05:51:02 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-06 05:51:02 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-06 05:51:07 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-06 05:52:04 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-06 05:52:04 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-06 05:52:04 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+2025-03-06 05:52:18 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:63] - Starting test: testSwitchToWindowByTitle.
+2025-03-06 05:52:18 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:52:18 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:52:18 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:52:18 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:52:19 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:52:19 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:67] - Number of open windows before closing: 3
+2025-03-06 05:52:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:70] - Closed window with title 'The Internet'.
+2025-03-06 05:52:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:73] - Number of open windows after closing: 2
+2025-03-06 05:52:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:76] - Window close validation passed.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:81] - Starting test: testCloseAllWindow.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:52:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:85] - All windows closed successfully.
+2025-03-06 05:52:28 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:56] - Switched to tab 3. Verifying title...
+2025-03-06 05:52:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:58] - Title verified successfully.
+2025-03-06 05:52:33 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:52:33 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:52:33 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:52:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:52:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:56:41 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-06 05:56:45 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-06 05:56:46 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-06 05:56:47 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-06 05:56:47 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-06 05:56:48 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-06 05:56:48 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-06 05:56:53 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-06 05:56:53 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-06 05:56:53 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-06 05:56:59 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-06 05:57:39 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-06 05:57:40 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-06 05:57:40 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+2025-03-06 05:57:53 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:63] - Starting test: testSwitchToWindowByTitle.
+2025-03-06 05:57:53 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:57:54 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:57:54 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:57:54 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:57:54 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:57:54 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:67] - Number of open windows before closing: 3
+2025-03-06 05:57:55 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:70] - Closed window with title 'The Internet'.
+2025-03-06 05:57:55 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:73] - Number of open windows after closing: 2
+2025-03-06 05:57:55 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:76] - Window close validation passed.
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:81] - Starting test: testCloseAllWindow.
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:57:59 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:58:00 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:85] - All windows closed successfully.
+2025-03-06 05:58:03 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:56] - Switched to tab 3. Verifying title...
+2025-03-06 05:58:04 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:58] - Title verified successfully.
+2025-03-06 05:58:08 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 05:58:08 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 05:58:08 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 05:58:08 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 05:58:08 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:01:03 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-06 06:01:07 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-06 06:01:08 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-06 06:01:09 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-06 06:01:09 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-06 06:01:10 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-06 06:01:10 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-06 06:01:15 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-06 06:01:15 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-06 06:01:15 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-06 06:01:21 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-06 06:02:01 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-06 06:02:01 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-06 06:02:01 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:63] - Starting test: testSwitchToWindowByTitle.
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:02:15 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:67] - Number of open windows before closing: 3
+2025-03-06 06:02:16 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:70] - Closed window with title 'The Internet'.
+2025-03-06 06:02:16 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:73] - Number of open windows after closing: 2
+2025-03-06 06:02:16 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:76] - Window close validation passed.
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:81] - Starting test: testCloseAllWindow.
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:02:20 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:02:21 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:85] - All windows closed successfully.
+2025-03-06 06:02:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:56] - Switched to tab 3. Verifying title...
+2025-03-06 06:02:25 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:58] - Title verified successfully.
+2025-03-06 06:02:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:02:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:02:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:02:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:02:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:07:11 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-06 06:07:15 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-06 06:07:16 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-06 06:07:17 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-06 06:07:17 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-06 06:07:18 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-06 06:07:18 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-06 06:07:23 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-06 06:07:23 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-06 06:07:23 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-06 06:07:28 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-06 06:08:08 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-06 06:08:09 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-06 06:08:09 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:63] - Starting test: testSwitchToWindowByTitle.
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:08:23 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:67] - Number of open windows before closing: 3
+2025-03-06 06:08:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:70] - Closed window with title 'The Internet'.
+2025-03-06 06:08:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:73] - Number of open windows after closing: 2
+2025-03-06 06:08:24 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseWindowByTitle:76] - Window close validation passed.
+2025-03-06 06:08:28 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:81] - Starting test: testCloseAllWindow.
+2025-03-06 06:08:28 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:08:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:08:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:08:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:08:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:08:29 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testCloseAllWindow:85] - All windows closed successfully.
+2025-03-06 06:08:33 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:08:33 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:08:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:08:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:08:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
+2025-03-06 06:08:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:56] - Switched to tab 3. Verifying title...
+2025-03-06 06:08:34 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.testSwitchToWindowByTitle:58] - Title verified successfully.
+2025-03-06 06:08:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:28] - Opening all windows...
+2025-03-06 06:08:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:31] - Clicked on 'Multiple Windows' link.
+2025-03-06 06:08:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:34] - Clicked on second window link.
+2025-03-06 06:08:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:37] - Switched to 'The Internet' window.
+2025-03-06 06:08:38 [main] INFO  utils.LogUtils - [tests.MultipleWindowsTest.openAllWindows:40] - Clicked on third window link.
