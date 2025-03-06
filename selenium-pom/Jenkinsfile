@@ -2,19 +2,48 @@ pipeline {
     agent any
 
     tools {
-        maven "MAVEN3"
-        jdk "OracleJDK11"
+        maven "Maven3"
     }
 
     stages {
-        stage('Fetch Code') {
-            step {
-                git branch: 'main' url: 'https://github.com/Ritik-Saxena/selenium-pom-junit.git'
+        stage('Checkout Code') {
+            steps {
+                script {
+                    echo "Pulling the latest code from GitHub..."
+                    git branch: 'main', url: 'https://github.com/Ritik-Saxena/selenium-pom-junit.git'
+                }
             }
         }
-        stage('Maven Test') {
-            
+
+        stage('Set Up Dependencies') {
+            steps {
+                script {
+                    echo "Installing dependencies..."
+                    // sh 'mvn clean install -DskipTests'       // For Linux
+                    bat 'cd selenium-pom && mvn clean install -DskipTests'
+                }
+            }
+        }
+
+        stage('Run Regression Suite') {
+            steps {
+                script {
+                    echo "Executing Regression Tests..."
+                    // sh 'mvn test -Dtest=RegressionTestSuite'    // for Linux
+                    bat 'cd selenium-pom && mvn test -Dtest=RegressionTestSuite'
+                }
+            }
+        }
+
+        stage('Publish Test Reports') {
+            steps {
+                script {
+                    echo "Publishing test reports..."
+                }
+                junit '**/target/surefire-reports/*.xml' // For JUnit results
+                archiveArtifacts artifacts: '**/target/surefire-reports/*.xml', fingerprint: true
+            }
         }
     }
-    
+
 }
