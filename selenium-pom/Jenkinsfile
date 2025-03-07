@@ -19,8 +19,8 @@ pipeline {
             steps {
                 script {
                     echo "Installing dependencies..."
-                    // sh 'mvn clean install -DskipTests'       // For Linux
-                    bat 'cd selenium-pom && mvn clean install -DskipTests'  // For Windows
+                    sh 'mvn clean install -DskipTests'       // For Linux
+                    // bat 'cd selenium-pom && mvn clean install -DskipTests'  // For Windows
                 }
             }
         }
@@ -29,8 +29,8 @@ pipeline {
             steps {
                 script {
                     echo "Executing Regression Tests..."
-                    // sh 'mvn test -Dtest=RegressionTestSuite'    // for Linux
-                    bat 'cd selenium-pom && mvn test -Dtest=RegressionTestSuite'    // for Windows
+                    sh 'mvn test -Dtest=RegressionTestSuite'    // for Linux
+                    // bat 'cd selenium-pom && mvn test -Dtest=RegressionTestSuite'    // for Windows
                 }
             }
         }
