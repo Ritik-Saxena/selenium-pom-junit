@@ -36,7 +36,7 @@ https://github.com/Ritik-Saxena/Expense-Manager-web-application/assets/62079355/
 <br>
 
 ## Folder Structure
-
+```
 selenium-pom/
 │── logs/
 │   ├── test.log
@@ -81,7 +81,7 @@ selenium-pom/
 │   │   ├── loginSuccess.png
 │── Jenkinsfile
 │── pom.xml
-
+```
 
 
 --- 
