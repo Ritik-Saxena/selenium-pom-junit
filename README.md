@@ -24,8 +24,35 @@ This Expense Manager is designed to empower users with a simple yet effective to
 <br>
 
 ## Preview
+### LoginTest
 
-https://github.com/Ritik-Saxena/Expense-Manager-web-application/assets/62079355/c87c547e-6c11-4a99-ad36-20c3a7cbf4bd
+https://github.com/user-attachments/assets/7bb2c04e-a689-4e82-b700-4e29f1dce158
+
+### AlertTest
+
+https://github.com/user-attachments/assets/aa887aa5-ef99-4948-a4d8-d63923d4e7b0
+
+### DragAndDropTest
+
+https://github.com/user-attachments/assets/b8e6cf5a-0ab1-4961-a354-29c7352a77e8
+
+### DropdownTest
+
+https://github.com/user-attachments/assets/28531409-6134-440c-8056-0c38c2e1e5b2
+
+### FramesTest
+
+https://github.com/user-attachments/assets/530b4f11-46e3-4fe3-ba24-669649d9cbbd
+
+### MulipleWindowsTest
+
+https://github.com/user-attachments/assets/5cb11e22-5312-44eb-b84c-25591116ae7b
+
+### WebTableTest
+
+https://github.com/user-attachments/assets/09f8a8f6-96f4-48c8-aa2f-dc5c44ca49dd
+
+
 
 <br>
 
