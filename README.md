@@ -17,7 +17,8 @@ This project is a **Selenium-based test automation framework** implemented using
 - 🛠 **Utility-Driven Approach:** Uses `ElementUtils.java`, `WaitUtils.java`, `ExcelUtils.java`, `LogUtils.java`, `ScreenshotUtils.java`, `BrowserUtils.java`, and `ConfigReader.java` for efficient automation.  
 - 📊 **Data-Driven Testing:** Implements `ExcelUtils.java` to parameterize test data dynamically.  
 - 📸 **Automated Screenshots:** Captures screenshots on test failures using `ScreenshotUtils.java`.  
-- 📝 **Logging & Reporting:** Uses `LogUtils.java` to track test execution status.  
+- 📝 **Logging & Reporting:** Uses `LogUtils.java` to track test execution status.
+- ⏳ **Asynchronous Waits:** Implemented dynamic waits in `WaitUtils.java` to handle element visibility and clickability efficiently.
 - 🔄 **Regression Testing:** Implemented **regression suite** to validate existing functionalities after updates.  
 - 🏗 **CI/CD Integration:** Configured **Jenkins Pipeline** to automate regression test execution.  
 
