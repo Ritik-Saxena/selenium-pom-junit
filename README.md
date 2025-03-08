@@ -172,6 +172,29 @@ https://github.com/user-attachments/assets/09f8a8f6-96f4-48c8-aa2f-dc5c44ca49dd
 
 <br>
 
+## Detailed Logs
+Implemented custom logging to track test execution, including **INFO**, **ERROR**, and **WARNING** logs. These logs provide visibility into test execution flow, failures, and key actions performed during test runs.
+
+### 📄 Sample Logs (`logs/test.log`)
+```
+2025-03-05 07:41:48 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLogin:37] - Login successful: You logged into a secure area!
+2025-03-05 07:41:52 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:80] - Starting login test with Excel data...
+2025-03-05 07:41:54 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: demo
+2025-03-05 07:41:55 [main] ERROR utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:106] - Failed to login!
+2025-03-05 07:41:55 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:94] - Attempting login for user: tomsmith
+2025-03-05 07:41:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:104] - Login Successful!
+2025-03-05 07:41:56 [main] INFO  utils.LogUtils - [tests.LoginTest.testLoginWithExcelData:113] - Excel test completed. Data saved.
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:67] - You logged into a secure area!
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [tests.LoginTest.testValidLoginAndTakeScreenshot:71] - Login successful: You logged into a secure area!
+2025-03-05 07:42:03 [main] INFO  utils.LogUtils - [utils.ScreenshotUtils.takeScreenshot:21] - Screenshot taken successfully!
+2025-03-05 07:42:10 [main] INFO  utils.LogUtils - [tests.LoginTest.testInvalidLogin:53] - Login failed as expected: Your username is invalid!
+2025-03-05 07:43:10 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:31] - Selected dropdown option: Option 1
+2025-03-05 07:43:11 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:36] - Selected dropdown option: Option 2
+2025-03-05 07:43:11 [main] INFO  utils.LogUtils - [tests.DropdownTest.validateDropdown:41] - Selected dropdown option: Option 1
+```
+
+<br>
+
 ## CI/CD Integration using Jenkins
 
 Below are the pipeline stages performed for the project.
