@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/7bb2c04e-a689-4e82-b700-4e29f1dce158
 * Used **Selenium's alert interface** to accept, dismiss, and send text to alerts.
 * **Validated alert responses using assertions** to ensure expected results.
 * Tested **multiple alert behaviors**, such as **OK and Cancel actions for confirmation alerts**.
-* Performed** text input automation for JavaScript prompt** alerts.
+* Performed **text input automation for JavaScript prompt** alerts.
 
 https://github.com/user-attachments/assets/aa887aa5-ef99-4948-a4d8-d63923d4e7b0
 
