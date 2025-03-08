@@ -1,66 +1,32 @@
-<img src="https://github.com/Ritik-Saxena/Expense-Manager-web-application/assets/62079355/3644d5ff-b2e6-4f7a-89b0-347b48ed3592" align="right" style: height=150 width=250/>
+<img alt="selenium logo" src="https://github.com/user-attachments/assets/892665fb-2f28-4f2d-be8d-155da5c14379" align="right" style: height=150 width=150 />
 
 
-# Expense Desk: Your Smart Expense Manager <br> [![LinkedIn](https://img.shields.io/twitter/url?label=%40ritik-saxena&logo=LinkedIn&style=social&url=https://www.linkedin.com/in/ritik-saxena)](https://www.linkedin.com/in/ritik-saxena)&nbsp;[![Instagram](https://img.shields.io/twitter/url?label=%40ultimateflutter&logo=Instagram&style=social&url=https%3A%2F%2Fwww.instagram.com%2Fultimateflutter%2F)](https://www.instagram.com/ultimateflutter/)
+# Selenium POM using JUnit: Element Interactions <br>
 > Connect with me on <a href='https://www.linkedin.com/in/ritik-saxena'>LinkedIn</a>
 
-
-
-### Expense Manager Web Application
-
-I developed a comprehensive Expense Manager web application (named **Expense Desk** ) as my Graduation Final Year project back in year 2020. Powered by Python and Django for the backend, the application efficiently handles all business logic, while the frontend is done using HTML, CSS, and Bootstrap and PostgreSQL ensures secure and organized data storage.
-
-**Key Features:**
-- **User-Friendly Expense Tracking:** Users can effortlessly log day-to-day expenses across various categories, including Shopping, Medical, Bills and Fees, Travel, Beauty, Food, Entertainment, and more.
-
-- **Intelligent Graphical Representations:** The application provides insightful graphical representations of expenses based on Expense Type, Monthly, and Weekly breakdowns. This visual analysis aids users in understanding spending patterns and assists in budget management.
-
-- **Data Security:** User credentials are prioritized, employing AES256 encryption for enhanced security, ensuring the protection of sensitive information.
-
-- **Account Management:** Users can create accounts, log in securely, and leverage a password reset feature that sends reset instructions to registered emails.
-
-This Expense Manager is designed to empower users with a simple yet effective tool to monitor their expenditures, offering valuable insights for better financial planning and management.
-
 <br>
 
-## Preview
-### LoginTest
 
-https://github.com/user-attachments/assets/7bb2c04e-a689-4e82-b700-4e29f1dce158
+### 📝 **About the Project**  
 
-### AlertTest
 
-https://github.com/user-attachments/assets/aa887aa5-ef99-4948-a4d8-d63923d4e7b0
+This project is a **Selenium-based test automation framework** implemented using the **Page Object Model (POM)** to ensure modularity, reusability, and maintainability of test scripts. It covers **UI automation for various web interactions**, including **login functionality, alerts, drag-and-drop, dropdowns, frames, multiple windows, and web tables**.  
 
-### DragAndDropTest
+🔹 **Key Features:**  
+- 🚀 **Page Object Model (POM):** Ensures a structured and scalable test design.  
+- 🛠 **Utility-Driven Approach:** Uses `ElementUtils.java`, `WaitUtils.java`, `ExcelUtils.java`, `LogUtils.java`, `ScreenshotUtils.java`, `BrowserUtils.java`, and `ConfigReader.java` for efficient automation.  
+- 📊 **Data-Driven Testing:** Implements `ExcelUtils.java` to parameterize test data dynamically.  
+- 📸 **Automated Screenshots:** Captures screenshots on test failures using `ScreenshotUtils.java`.  
+- 📝 **Logging & Reporting:** Uses `LogUtils.java` to track test execution status.  
+- 🔄 **Regression Testing:** Implemented **regression suite** to validate existing functionalities after updates.  
+- 🏗 **CI/CD Integration:** Configured **Jenkins Pipeline** to automate regression test execution.  
 
-https://github.com/user-attachments/assets/b8e6cf5a-0ab1-4961-a354-29c7352a77e8
-
-### DropdownTest
-
-https://github.com/user-attachments/assets/28531409-6134-440c-8056-0c38c2e1e5b2
-
-### FramesTest
-
-https://github.com/user-attachments/assets/530b4f11-46e3-4fe3-ba24-669649d9cbbd
-
-### MulipleWindowsTest
-
-https://github.com/user-attachments/assets/5cb11e22-5312-44eb-b84c-25591116ae7b
-
-### WebTableTest
-
-https://github.com/user-attachments/assets/09f8a8f6-96f4-48c8-aa2f-dc5c44ca49dd
+This framework ensures **robust test automation, reduces manual efforts, and integrates seamlessly into CI/CD pipelines for continuous testing.** 🚀✅
 
 
 
 <br>
 
-## Synopsis file
-
-[Expense Desk Synopsis.pdf](https://github.com/Ritik-Saxena/Expense-Manager-web-application/files/13424180/Expense.Desk.Synopsis.pdf)
-
-<br>
 
 ## Folder Structure
 ```
@@ -111,12 +77,124 @@ selenium-pom/
 ```
 
 
+## **Common Automation Test Implementation Points** 🚀  
+
+These are the common best practices followed across all test cases:
+
+* **Implemented Page Object Model (POM)** to maintain modularity and separation of concerns.
+* **Utilized explicit waits (WaitUtils) and ElementUtils** to ensure elements are properly loaded before interaction.
+* **Performed data-driven testing** (where applicable) to enhance test coverage and reusability.
+* **Implemented assertions** to validate expected behaviors for UI elements and actions.
+* **Used logging (LogUtils)** to track test execution status for better debugging and reporting.
+* **Captured screenshots (ScreenshotUtils)** for key test scenarios like successful actions or failures.
+* **Ensured structured test execution flow** by using proper setup methods before each test.
+* **Utilized essential utilities** (`ElementUtils`, `WaitUtils`, `ExcelUtils`, `LogUtils`, `ScreenshotUtils`, `BrowserUtils`, `ConfigReader`) to enhance test automation efficiency, ensuring reliable element interactions, explicit waits, data-driven testing, logging, screenshot capturing, and configuration management.
+
+<br>
+
+## Test Preview
+### 🔑 Login Test
+
+* Worked with text field interaction using `enterUsername()` and `enterPassword()` methods.
+* Performed **data parameterization for login credentials using Apache POI** via `ExcelUtils`.
+* Ensured secure credential retrieval via `ConfigReader` utility for application properties.
+* Validated login functionality for both **valid and invalid credentials**.
+* Implemented a **dynamic test execution flow using data-driven testing** via Excel.
+* Ensured **proper test reporting using logs and status messages**.
+
+https://github.com/user-attachments/assets/7bb2c04e-a689-4e82-b700-4e29f1dce158
+
+<br>
+
+### ⚠️ Alert Test
+
+* Automated **JavaScript alert handling**, including simple, confirmation, and prompt alerts.
+* Used **Selenium's alert interface** to accept, dismiss, and send text to alerts.
+* **Validated alert responses using assertions** to ensure expected results.
+* Tested **multiple alert behaviors**, such as **OK and Cancel actions for confirmation alerts**.
+* Performed** text input automation for JavaScript prompt** alerts.
+
+https://github.com/user-attachments/assets/aa887aa5-ef99-4948-a4d8-d63923d4e7b0
+
+<br>
+
+### 🖱 Drag And Drop Test
+
+* **Automated drag-and-drop** functionality using Selenium’s **`Actions` class**.
+* Performed element interactions using Actions class for smooth drag-and-drop execution.
+* Validated UI behavior by simulating user actions programmatically.
+
+https://github.com/user-attachments/assets/b8e6cf5a-0ab1-4961-a354-29c7352a77e8
+
+<br>
+
+### 📌 Dropdown Test
+
+* **Automated dropdown selection** testing using Selenium’s **`Select` class**.
+* Performed dropdown selection using multiple methods:
+  * **By value**
+  * **By visible text**
+  * **By index**
+* **Validated selected dropdown options using assertions** to ensure correct selection.
+* Created **structured and reusable methods** for dropdown interactions to improve maintainability.
+* **Logged dropdown selection actions** using `LogUtils` for better test tracking.
+
+https://github.com/user-attachments/assets/28531409-6134-440c-8056-0c38c2e1e5b2
+
+<br>
+
+### 🖼 Frames Test
+* Automated **frame handling and switching** using Selenium’s ```switchTo().frame()``` methods.
+* Ensured **proper frame navigation** and interactions with embedded elements inside frames..
+
+https://github.com/user-attachments/assets/530b4f11-46e3-4fe3-ba24-669649d9cbbd
+
+<br>
+
+### 🪟 Muliple Windows Test
+* Automated **multiple window handling** using Selenium’s ```switchTo().window()``` methods.
+* Performed **dynamic window switching** by both tab number and window title.
+* Validated UI behavior by **asserting window titles after switching**.
+* Implemented **efficient window management by allowing selective and bulk window closures**.
+
+https://github.com/user-attachments/assets/5cb11e22-5312-44eb-b84c-25591116ae7b
+
+<br>
+
+### 📊 WebTable Test
+* Automated **web table validation** by retrieving and verifying column headers dynamically.
+* **Extracted table data dynamically** for structured and efficient data retrieval.
+* **Validated column headers** against expected values to ensure correct table structure.
+* Implemented **a reusable method to fetch all rows** for scalable test cases.
+
+https://github.com/user-attachments/assets/09f8a8f6-96f4-48c8-aa2f-dc5c44ca49dd
+
+
+<br>
+
+## CI/CD Integration using Jenkins
+
+Below are the pipeline stages performed for the project.
+
+1. **Checkout Code:** Pulls the latest test scripts from GitHub.
+2. **Set Up Dependencies:** Runs `mvn clean install -DskipTests` to set up project dependencies.
+3. **Regression Test Execution:**
+   * Executes `mvn test -Dtest=RegressionTestSuite`.
+   * Runs all test classes listed under RegressionTestSuite.
+5. **Reporting and Archiving the artifact:**
+    * JUnit Test Reporting: Collects test execution results from `surefire-reports`.
+    * Artifact Archiving: Stores test reports for future reference.
+
+![Jenkins build](https://github.com/user-attachments/assets/b8b689ec-7845-4a04-9bf9-bc15e65e1fab)
+
+![Jenkins Blue Ocean](https://github.com/user-attachments/assets/5e5cfff0-d6a1-4a5f-af2b-af5c84bc445d)
+
 --- 
 If you like this repository, do <img src="https://user-images.githubusercontent.com/62079355/200077014-f3e95bba-57a6-4c7a-b26a-212bf18e5162.png" width=25 height=25> and <img src="https://user-images.githubusercontent.com/62079355/220893415-ea2015e9-6df6-4de2-ab66-041a3f890be2.png" width=25 height=25> the repo for more amazing stuff coming soon.
 
 ---
-[![GitHub stars](https://img.shields.io/github/stars/Ritik-Saxena/Expense-Manager-web-application?style=social)](https://github.com/Ritik-Saxena/Expense-Manager-web-application)
+[![GitHub stars](https://img.shields.io/github/stars/Ritik-Saxena/selenium-pom-junit?style=social)](https://github.com/Ritik-Saxena/selenium-pom-junit)
 [![GitHub followers](https://img.shields.io/github/followers/Ritik-Saxena?style=social)](https://github.com/Ritik-Saxena?tab=followers)
-[![GitHub forks](https://img.shields.io/github/forks/Ritik-Saxena/Expense-Manager-web-application?style=social)](https://github.com/Ritik-Saxena/Expense-Manager-web-application)
-[![GitHub watchers](https://img.shields.io/github/watchers/Ritik-Saxena/Expense-Manager-web-application?style=social)](https://github.com/Ritik-Saxena/Expense-Manager-web-application)
+[![GitHub forks](https://img.shields.io/github/forks/Ritik-Saxena/selenium-pom-junit?style=social)](https://github.com/Ritik-Saxena/selenium-pom-junit)
+[![GitHub watchers](https://img.shields.io/github/watchers/Ritik-Saxena/selenium-pom-junit?style=social)](https://github.com/Ritik-Saxena/selenium-pom-junit)
 
