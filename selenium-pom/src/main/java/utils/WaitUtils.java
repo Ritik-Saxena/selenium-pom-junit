@@ -24,16 +24,9 @@ public class WaitUtils {
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 	
-	
 	// wait for one web element to be click-able
 	public static WebElement waitForElementToBeClickable(WebDriver driver, By locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitDuration));
-		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-	}
-	
-	// wait for all the web elements having same locators to be click-able
-	public static List<WebElement> waitForAllElementToBeClickable(WebDriver driver, By locator) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitDuration));
-		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+		return wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
 }
