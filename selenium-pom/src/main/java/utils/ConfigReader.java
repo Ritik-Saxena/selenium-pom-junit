@@ -10,8 +10,8 @@ public class ConfigReader {
 	
 	static {
 		// getting absolute path of file from relative path
-		String relativeExcelFilePath = "src/main/resources/config.properties";
-		String filePath = Paths.get(relativeExcelFilePath).toAbsolutePath().toString();
+		String relativeConfigFilePath = "src/main/resources/config.properties";
+		String filePath = Paths.get(relativeConfigFilePath).toAbsolutePath().toString();
 		try {
 			FileInputStream file = new FileInputStream(filePath);
 			properties.load(file);
